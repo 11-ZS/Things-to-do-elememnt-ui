@@ -1,0 +1,22 @@
+[33mcommit ad80dc44af67002b04abb213a8bea49e09d20ea9[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: 11-ZS <1029856983@qq.com>
+Date:   Mon Jun 17 12:18:01 2019 +0800
+
+    test
+
+[1mdiff --git a/src/views/Index.vue b/src/views/Index.vue[m
+[1mindex 7896238..62e2632 100644[m
+[1m--- a/src/views/Index.vue[m
+[1m+++ b/src/views/Index.vue[m
+[36m@@ -6,9 +6,10 @@[m
+                 <d-pane label="其他" flag="2">2</d-pane>[m
+                 <button slot="other" @click="addThingsToDo" class="label">[m
+                     +[m
+[31m-                    [m
+[32m+[m[32m                    +[m
+                 </button>[m
+ [m
+[32m+[m
+                 <d-pane label="其他" flag="3">3</d-pane>[m
+             </d-tabs>[m
+         </div>[m
