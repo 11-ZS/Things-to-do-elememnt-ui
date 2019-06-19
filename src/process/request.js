@@ -6,7 +6,7 @@ axios.defaults.baseURL = 'http://localHost:3000'
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 function request(url,type='GET',data={}){
 	return new Promise((resolve,reject)=>{
