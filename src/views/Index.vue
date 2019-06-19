@@ -34,7 +34,7 @@ export default {
             things: [
                 {
                     name: "练习Vue",
-                    description: "tabs and pane",
+                    description: "tabs and pane  ",
                     startTime: new Date(),
                     endTime: new Date(),
                     isOver: false
